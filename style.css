@@ -109,7 +109,7 @@ button {
     flex-direction: column;
     align-items: center;
     padding: 50px;
-    height: 150px;
+    height: 200px;
 }
 .writing {
     font-size: 36px;
@@ -121,8 +121,9 @@ button {
 .thor {
     font-weight: bold;
     display: flex;
-    align-self: flex-end;
-    width: 600px;
+    justify-content: flex-end;
+    width: 750px;
 }
 
-/* Footer */
+/* Call to Action*/
+
