@@ -49,6 +49,9 @@ button {
     border-radius: 8px;
     color: white;
     margin-top: 10px;
+    border-color: #f9faf8;
+    border-style: solid;
+
 }
 .awesome {
     width: 400px;
@@ -127,3 +130,37 @@ button {
 
 /* Call to Action*/
 
+.call {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    margin: 100px;
+    gap: 50px;
+}
+
+.to-action{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+button {
+    align-self: center;
+    border-color: #f9faf8;
+}
+.header2 {
+    font-weight: bold;
+}
+
+/* Footer */
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    height: 50px;
+    }
+}
